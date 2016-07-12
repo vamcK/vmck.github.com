@@ -412,3 +412,16 @@ $(document).ready(function($) {
 					.setTween(tween)
 					.addTo(controller);
 });
+
+$(document).ready(function($) {
+	// build tween
+	var tween = TweenMax.fromTo("img#location", 0.8, 
+				{scale: 0, rotation: 100, ease: Back.easeOut},
+				{scale: 1, rotation: 0, ease: Back.easeOut, delay: 0.5}
+				);
+
+	// build scene
+	var scene = new ScrollScene({triggerElement: "section#mop", triggerHook: 0.5})
+					.setTween(tween)
+					.addTo(controller);
+});
