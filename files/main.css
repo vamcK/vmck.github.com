@@ -801,11 +801,11 @@ section#footer {
     width: 80px;
     height: 80px; }
   #location-arrow {
-    width: 25px; }
+    display: none; }
   #location-arrow-2 {
-    width: 50px; }
+    display: none; }
   #location-arrow-3 {
-    width: 35px; }
+    display: none; }
   #party1 {
     width: 35px; }
   #party2 {
