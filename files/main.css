@@ -757,7 +757,7 @@ section#footer {
 @media (max-width: 767px) {
   /*bootstrap sm break point */
   #scrolldown {
-display : none;
+display : block;
  }
 
   
